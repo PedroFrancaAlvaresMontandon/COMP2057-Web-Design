@@ -1,0 +1,244 @@
+/* RESET & GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e; 
+    color: #e0e0e0; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff4757; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER & FOOTER */
+header {
+    background-color: #0f0f1a; 
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 3px solid #ff4757; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #0f0f1a;
+    color: #888;
+    margin-top: 3rem;
+    border-top: 1px solid #333;
+}
+
+/* NAVIGATION MENU */
+nav {
+    background-color: #16213e;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: sticky; 
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;           
+    flex-wrap: wrap;         
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #0f3460;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color: #ff4757; 
+    text-decoration: none;
+}
+
+/* MAIN CONTENT CONTAINER */
+main {
+    max-width: 900px;      
+    margin: 2rem auto;    
+    padding: 0 20px;
+    background-color: #1a1a2e;
+}
+
+h2 {
+    color: #ff4757;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 2rem;
+}
+
+h3 {
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* SPECIFIC PAGE ELEMENTS */
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Definition List */
+dl {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #ff4757;
+}
+
+dt {
+    font-size: 1.2em;
+    color: #ff4757;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 2px solid #333;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #16213e;
+    font-size: 0.95rem;
+}
+
+table thead tr {
+    background-color: #ff4757;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #0f3460;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #0f3460;
+}
+
+table tbody tr:hover {
+    background-color: #0f3460; 
+}
+
+/* Contact Page */
+form.contact-form {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px; 
+    margin: 0 auto;   
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ff4757;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #0f3460;
+    border-radius: 4px;
+    background-color: #0f0f1a;
+    color: #ffffff;
+    font-family: inherit; 
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ff4757; 
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e84118; 
+}
+
+/* Big three*/
+dd {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+
+.anime-icon {
+    width: 120px;  
+    height: auto;  
+    border: 2px solid #a4c639; 
+    margin: 0;     
+    flex-shrink: 0; 
+}
