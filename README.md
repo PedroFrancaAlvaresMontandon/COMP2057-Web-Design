@@ -3,7 +3,7 @@
 This repository contains the source code for **The Anime Universe**, a comprehensive web guide to Japanese animation developed as the Final Project for **COMP-2057: Web Design** at the University of Windsor.
 
 ## 🌐 Live Demo
-[Click here to visit the website](SEU_LINK_DO_GITHUB_PAGES_AQUI)
+[Click here to visit the website](https://pedrofrancaalvaresmontandon.github.io/COMP2057-Web-Design/)
 
 ## 🛠️ Technologies Used
 * **HTML5:** Semantic structure (`<header>`, `<nav>`, `<main>`, `<footer>`), Image Maps, and Forms.
